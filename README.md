@@ -21,8 +21,9 @@ This repository contains all the tasks, projects, analyses, and documentation co
 | 11 | [Phishing Attack Simulation & Detection](https://github.com/hellolightning/Elevate_Labs/tree/Task-11) | ---- | --- |
 | 12 | [Log Monitoring & Analysis](https://github.com/hellolightning/Elevate_Labs/tree/Task-12) | ---- | --- |
 | 13 | [Secure API Testing & Authorization Validation](https://github.com/hellolightning/Elevate_Labs/tree/Task-13) | ---- | --- |
-| 14 | [ ](https://github.com/hellolightning/Elevate-Labs/tree/Task-8) | ---- | --- |
-| 15 | [](https://github.com/hellolightning/Elevate-Labs/tree/Task-8) | ---- | --- |
+| 14 | [Linux Server Hardening & Secure Configuration](https://github.com/hellolightning/Elevate-Labs/tree/Task-14) | ---- | --- |
+| 15 | [Vulnerability Assessment & Risk Prioritization](https://github.com/hellolightning/Elevate-Labs/tree/Task-15) | ---- | --- |
+| 16 | [Incident Response & Security Breach Simulation](https://github.com/hellolightning/Elevate-Labs/tree/Task-16) | ---- | --- |
 | P |  |  |  |
 
 ## 📈 Key Skills Demonstrated:
