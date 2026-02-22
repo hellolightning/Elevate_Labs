@@ -25,6 +25,10 @@ This repository contains all the tasks, projects, analyses, and documentation co
 | 15 | [Vulnerability Assessment & Risk Prioritization](https://github.com/hellolightning/Elevate-Labs/tree/Task-15) | ---- | --- |
 | 16 | [Incident Response & Security Breach Simulation](https://github.com/hellolightning/Elevate-Labs/tree/Task-16) | ---- | --- |
 | P |  |  |  |
+| P |  |  |  |
+| P |  |  |  |
+| P |  |  |  |
+| P |  |  |  |
 
 ## 📈 Key Skills Demonstrated:
 
