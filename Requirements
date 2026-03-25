@@ -1,0 +1,7 @@
+Python 3.7.9  – This version of Python Programming language is used
+
+pynput – To capture keyboard inputs
+
+cryptography (Fernet) – For encrypting keystroke data
+
+base64 – For safe encoded storage
