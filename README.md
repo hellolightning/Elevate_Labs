@@ -24,11 +24,11 @@ This repository contains all the tasks, projects, analyses, and documentation co
 | 14 | [Linux Server Hardening & Secure Configuration](https://github.com/hellolightning/Elevate-Labs/tree/Task-14) | ---- | --- |
 | 15 | [Vulnerability Assessment & Risk Prioritization](https://github.com/hellolightning/Elevate-Labs/tree/Task-15) | ---- | --- |
 | 16 | [Incident Response & Security Breach Simulation](https://github.com/hellolightning/Elevate-Labs/tree/Task-16) | ---- | --- |
-| P |  |  |  |
-| P |  |  |  |
-| P |  |  |  |
-| P |  |  |  |
-| P |  |  |  |
+| P | [Web Application Vulnerability Scanner](https://github.com/hellolightning/Elevate_Labs/tree/Project-1) |  |  |
+| P | [Personal Firewall using Python](https://github.com/hellolightning/Elevate_Labs/tree/Project-2) |  |  |
+| P | [Keylogger with Encrypted Data Exfiltration](https://github.com/hellolightning/Elevate_Labs/tree/Project-3) |  |  |
+| P | [Secure File Storage System with AES](https://github.com/hellolightning/Elevate_Labs/tree/Project-4) |  |  |
+| P | [Steganography Tool for Image/File Hiding](https://github.com/hellolightning/Elevate_Labs/tree/Project-5) |  |  |
 
 ## 📈 Key Skills Demonstrated:
 
