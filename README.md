@@ -1,61 +1,41 @@
-# Elevate-Labs
+# 🔐 Secure File Storage System (AES via Fernet)
 
-Welcome to the official repository for my Cybersecurity Internship at Elevate Labs.
-This repository contains all the tasks, projects, analyses, and documentation completed during the internship period.
+## 💡 Overview
+A lightweight CLI and GUI-based tool to encrypt and decrypt files locally using a password-derived key with PBKDF2HMAC and Fernet (AES-128 + HMAC). This project demonstrates practical file security through authenticated encryption and key derivation — ideal for internship or cybersecurity portfolio submission.
 
+## 📂 Files
+File	Description
+secure_storage.py	Main script (CLI for encryption & decryption)
+secure_storage_gui.py	Tkinter GUI for easy file encryption/decryption
+requirements.txt	Python dependencies
+sample.txt	Example plaintext file
+salt.bin	Example salt file (auto-generated when first run)
+report.pdf	professional project report
+README.md	Project documentation
 
-## 🏆 Internship Tasks/ Projects Highlights:
+## ⚙️ Quick Setup
+Create a virtual environment and install dependencies:
 
-| No. | Task / Project Title | Focus Area | Key Tools |
-| --- | --- | --- | --- |
-| 1 | [Cybersecurity Basics & Attack surface](https://github.com/hellolightning/Elevate_Labs/tree/Task-1) | -- | --- |
-| 2 | [Operating System Security Fundamentals](https://github.com/hellolightning/Elevate_Labs/tree/Task-2) | -- | -- |
-| 3 | [Networking Basics for Cyber Security](https://github.com/hellolightning/Elevate_Labs/tree/Task-3) | --- | ---- |
-| 4 | [Password Security & Authentication Analysis](https://github.com/hellolightning/Elevate_Labs/tree/Task-4) | ---- |	--- |
-| 5 | [Network Traffic Analysis with Wireshark](https://github.com/hellolightning/Elevate_Labs/tree/Task-5) | --- | --- |
-| 6 | [Password Strength Evaluation & Security Best Practices](https://github.com/hellolightning/Elevate_Labs/tree/Task-6) | --- | ---- |
-| 7 | [Web Application Vulnerability Testing](https://github.com/hellolightning/Elevate_Labs/tree/Task-7) | ---- | ---- |
-| 8 | [SQL Injection Practical Exploitation](https://github.com/hellolightning/Elevate_Labs/tree/Task-8) | ---- | --- |
-| 9 | [Network Vulnerability Scanning](https://github.com/hellolightning/Elevate_Labs/tree/Task-9) | ---- | --- |
-| 10 | [Firewall Configuration & Testing](https://github.com/hellolightning/Elevate_Labs/tree/Task-10) | ---- | --- |
-| 11 | [Phishing Attack Simulation & Detection](https://github.com/hellolightning/Elevate_Labs/tree/Task-11) | ---- | --- |
-| 12 | [Log Monitoring & Analysis](https://github.com/hellolightning/Elevate_Labs/tree/Task-12) | ---- | --- |
-| 13 | [Secure API Testing & Authorization Validation](https://github.com/hellolightning/Elevate_Labs/tree/Task-13) | ---- | --- |
-| 14 | [Linux Server Hardening & Secure Configuration](https://github.com/hellolightning/Elevate-Labs/tree/Task-14) | ---- | --- |
-| 15 | [Vulnerability Assessment & Risk Prioritization](https://github.com/hellolightning/Elevate-Labs/tree/Task-15) | ---- | --- |
-| 16 | [Incident Response & Security Breach Simulation](https://github.com/hellolightning/Elevate-Labs/tree/Task-16) | ---- | --- |
-| P |  |  |  |
-| P |  |  |  |
-| P |  |  |  |
-| P |  |  |  |
-| P |  |  |  |
+python -m venv venv
+source venv/bin/activate   # or venv\Scripts\activate on Windows
+pip install -r requirements.txt
+Generate a salt (only once) or let the tool generate it automatically:
 
-## 📈 Key Skills Demonstrated:
+python secure_storage.py genkey --password "YourPass123!" --salt-file salt.bin --out key.bin
+Encrypt a file:
 
-. Network Scanning & Packet Analysis
+python secure_storage.py encrypt --password "YourPass123!" --salt-file salt.bin --in sample.txt --out sample.txt.enc
+Decrypt the file:
 
-. Vulnerability Assessment & Remediation
+python secure_storage.py decrypt --password "YourPass123!" --salt-file salt.bin --in sample.txt.enc --out sample_decrypted.txt
 
-. Firewall Configuration
+## 🖥️ GUI Mode
+To use the Graphical Interface, simply run:
 
-. Technical Documentation & Reporting
+python secure_storage_gui.py
+You can browse, encrypt, and decrypt files easily without using the command line.
 
-. Secure Authentication & Password Management
-
-. Endpoint Security & Privacy Auditing
-
-. VPN Setup & Evaluation
-
-### 🛠️ Tools & Platforms
-
-
-. Kali Linux . Wireshark . Nmap . Python
-. Nessus . MXToolbox . Git & GitHub
-
-
-### 🧠 Author
-
-Yash Jadhav
-Cybersecurity Enthusiast | Intern @ Elevate Labs
-
-
+## 🧠 Notes
+Keep your salt.bin safe — it's required to regenerate the same key.
+Passwords are never stored; keys are derived securely using PBKDF2HMAC.
+This project is educational, secure, and suitable for internship or job submissions in cybersecurity and data protection.
