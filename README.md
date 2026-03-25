@@ -1,61 +1,24 @@
-# Elevate-Labs
+# 🔐 Encrypted Keylogger PoC
+Internship Project as a Cybersecurity Intern at Elevate Labs 👨‍💻 A Proof-of-Concept Keylogger that captures keystrokes, encrypts them securely, and simulates exfiltration. For ethical and educational purposes only!
 
-Welcome to the official repository for my Cybersecurity Internship at Elevate Labs.
-This repository contains all the tasks, projects, analyses, and documentation completed during the internship period.
+## 🎯 Project Objective
+This project demonstrates how keylogging attacks work by:
 
+Capturing keyboard input ⌨️
+Encrypting sensitive data 🔒
+Simulating secure data exfiltration 📡
 
-## 🏆 Internship Tasks/ Projects Highlights:
+## 🧰 Tools & Technologies
+Tool	Purpose
+Python 3.7.9	Programming Language
+pynput	Capture keystrokes
+cryptography	Secure encryption (Fernet)
+base64	Encode data for storage
 
-| No. | Task / Project Title | Focus Area | Key Tools |
-| --- | --- | --- | --- |
-| 1 | [Cybersecurity Basics & Attack surface](https://github.com/hellolightning/Elevate_Labs/tree/Task-1) | -- | --- |
-| 2 | [Operating System Security Fundamentals](https://github.com/hellolightning/Elevate_Labs/tree/Task-2) | -- | -- |
-| 3 | [Networking Basics for Cyber Security](https://github.com/hellolightning/Elevate_Labs/tree/Task-3) | --- | ---- |
-| 4 | [Password Security & Authentication Analysis](https://github.com/hellolightning/Elevate_Labs/tree/Task-4) | ---- |	--- |
-| 5 | [Network Traffic Analysis with Wireshark](https://github.com/hellolightning/Elevate_Labs/tree/Task-5) | --- | --- |
-| 6 | [Password Strength Evaluation & Security Best Practices](https://github.com/hellolightning/Elevate_Labs/tree/Task-6) | --- | ---- |
-| 7 | [Web Application Vulnerability Testing](https://github.com/hellolightning/Elevate_Labs/tree/Task-7) | ---- | ---- |
-| 8 | [SQL Injection Practical Exploitation](https://github.com/hellolightning/Elevate_Labs/tree/Task-8) | ---- | --- |
-| 9 | [Network Vulnerability Scanning](https://github.com/hellolightning/Elevate_Labs/tree/Task-9) | ---- | --- |
-| 10 | [Firewall Configuration & Testing](https://github.com/hellolightning/Elevate_Labs/tree/Task-10) | ---- | --- |
-| 11 | [Phishing Attack Simulation & Detection](https://github.com/hellolightning/Elevate_Labs/tree/Task-11) | ---- | --- |
-| 12 | [Log Monitoring & Analysis](https://github.com/hellolightning/Elevate_Labs/tree/Task-12) | ---- | --- |
-| 13 | [Secure API Testing & Authorization Validation](https://github.com/hellolightning/Elevate_Labs/tree/Task-13) | ---- | --- |
-| 14 | [Linux Server Hardening & Secure Configuration](https://github.com/hellolightning/Elevate-Labs/tree/Task-14) | ---- | --- |
-| 15 | [Vulnerability Assessment & Risk Prioritization](https://github.com/hellolightning/Elevate-Labs/tree/Task-15) | ---- | --- |
-| 16 | [Incident Response & Security Breach Simulation](https://github.com/hellolightning/Elevate-Labs/tree/Task-16) | ---- | --- |
-| P |  |  |  |
-| P |  |  |  |
-| P |  |  |  |
-| P |  |  |  |
-| P |  |  |  |
-
-## 📈 Key Skills Demonstrated:
-
-. Network Scanning & Packet Analysis
-
-. Vulnerability Assessment & Remediation
-
-. Firewall Configuration
-
-. Technical Documentation & Reporting
-
-. Secure Authentication & Password Management
-
-. Endpoint Security & Privacy Auditing
-
-. VPN Setup & Evaluation
-
-### 🛠️ Tools & Platforms
-
-
-. Kali Linux . Wireshark . Nmap . Python
-. Nessus . MXToolbox . Git & GitHub
-
-
-### 🧠 Author
-
-Yash Jadhav
-Cybersecurity Enthusiast | Intern @ Elevate Labs
-
-
+## 🚀 Features
+📝 Capture all keystrokes with pynput
+🔐 Encrypt keystrokes using Fernet encryption
+🕓 Timestamped logs for better tracking
+🌐 Simulate exfiltration by printing encrypted data to the console
+⛔ Kill switch: Press ESC to stop the keylogger
+🧑‍💻 Designed for ethical and educational purposes only!
